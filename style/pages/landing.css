@@ -369,24 +369,24 @@ footer .frame .footer-container .sns-icons img {
     grid-column: 1;
   }
 
-  footer .frame .footer-container {
+  footer .frame .footer_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
     gap: 3em;
   }
 
-  footer .frame .codeit-2023 {
+  footer .frame .codeit_2023 {
     grid-row: 2;
     grid-column: 1;
   }
 
-  footer .frame .extra-info {
+  footer .frame .extra_info {
     grid-row: 1;
     grid-column: 1;
   }
 
-  footer .frame .footer-container .sns-icons {
+  footer .frame .footer_container .sns_icons {
     grid-row: 1;
     grid-column: 2;
     justify-content: flex-end;

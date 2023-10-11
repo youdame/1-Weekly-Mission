@@ -81,11 +81,12 @@ main {
   background: var(--linkbrary-white);
 }
 
-.input-frame .input-box .password {
+.inputFrame .inputbox .password{
+  
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap : 10px;
   justify-content: flex-end;
 }
 
@@ -95,8 +96,9 @@ main {
   right: 15px;
 }
 
-.input-frame .input-box:focus {
-  border-color: #6d6afe;
+
+.inputFrame .inputbox:focus{
+  border-color: #6D6AFE;
 }
 
 .input-frame .login-button {
@@ -143,6 +145,16 @@ main {
   line-height: normal;
 }
 
+.error{
+  color: var(--linkbrary-red);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
 @media (max-width: 767px) {
   main {
     width: 100%;
@@ -159,4 +171,9 @@ main {
     width: 100%;
     max-width: 400px;
   }
+
+
+
+  
+
 }
