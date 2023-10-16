@@ -81,12 +81,11 @@ main {
   background: var(--linkbrary-white);
 }
 
-.inputFrame .inputbox .password{
-  
+.input-frame .input-box .password {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap : 10px;
+  gap: 10px;
   justify-content: flex-end;
 }
 
@@ -96,9 +95,8 @@ main {
   right: 15px;
 }
 
-
-.inputFrame .inputbox:focus{
-  border-color: #6D6AFE;
+.input-frame .input-box:focus {
+  border-color: #6d6afe;
 }
 
 .input-frame .login-button {
@@ -171,9 +169,4 @@ main {
     width: 100%;
     max-width: 400px;
   }
-
-
-
-  
-
 }
